@@ -1,0 +1,152 @@
+<mjml>
+  <mj-head>
+    <mj-font
+      name="Roboto"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+  </mj-head>
+  <mj-body>
+    <mj-section background-color="#4C1D95">
+      <mj-column>
+        <mj-image
+          padding-left="0px"
+          align="center"
+          width="100px"
+          align="center"
+          src="https://i.postimg.cc/7L7srPGW/logo.png"
+          alt=""
+        />
+      </mj-column>
+      <mj-column>
+        <mj-navbar
+          base-url="https://mjml.io"
+          hamburger="hamburger"
+          ico-color="#ffffff"
+        >
+          <mj-navbar-link>
+            <mj-image src="https://postimg.cc/CRJKXTjL" alt="" />
+          </mj-navbar-link>
+
+          <mj-navbar-link
+            href="https://tailwind-ecommerce-demo.vercel.app/index.html"
+            color="#ffffff"
+            >Home</mj-navbar-link
+          >
+          <mj-navbar-link
+            href="https://tailwind-ecommerce-demo.vercel.app/catalog.html"
+            color="#ffffff"
+            >Catalog</mj-navbar-link
+          >
+          <mj-navbar-link
+            href="https://tailwind-ecommerce-demo.vercel.app/cart.html"
+            color="#ffffff"
+            >Cart</mj-navbar-link
+          >
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+
+    <!-- Company Header -->
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-image src="https://i.postimg.cc/JhGystcp/07.png" alt="" />
+        <mj-text
+          padding="20px"
+          font-size="50px"
+          font-family="Roboto"
+          font-weight="700"
+        >
+          Meet the online furniture constructor&#33;
+        </mj-text>
+        <mj-text font-size="16px" line-height="1.5"
+          >Hey, {user}! <br />
+          We are excited to introduce a brand-new feature of Maybell
+          company!</mj-text
+        >
+      </mj-column>
+    </mj-section>
+
+    <!-- badges -->
+    <mj-section background-color="#ffffff">
+      <mj-group>
+        <mj-column width="20%">
+          <mj-image> hell0 </mj-image>
+        </mj-column>
+        <mj-column width="80%">
+          <mj-text font-size="16px" font-weight="600">
+            Customize your furniture
+          </mj-text>
+          <mj-text font-size="14px" line-height="1.5">
+            Try to check the templates or create your unique design&#33;
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+      <mj-group>
+        <mj-column width="20%">
+          <mj-image> hell0 </mj-image>
+        </mj-column>
+        <mj-column width="80%">
+          <mj-text font-size="16px" font-weight="600">
+            Add new shapes
+          </mj-text>
+          <mj-text font-size="14px" line-height="1.5">
+            Try to check the templates or create your unique design&#33;
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+      <mj-group>
+        <mj-column width="20%">
+          <mj-image> hell0 </mj-image>
+        </mj-column>
+        <mj-column width="80%">
+          <mj-text font-size="16px" font-weight="600">
+            Create your own fabric design
+          </mj-text>
+          <mj-text font-size="14px" line-height="1.5">
+            Try to check the templates or create your unique design&#33;
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+      <mj-group>
+        <mj-column width="20%">
+          <mj-image> hell0 </mj-image>
+        </mj-column>
+        <mj-column width="80%">
+          <mj-text font-size="16px" font-weight="600">
+            Fast Delivery
+          </mj-text>
+          <mj-text font-size="14px" line-height="1.5">
+            Try to check the templates or create your unique design&#33;
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-button background-color="#ffde34" color="black" width="250px">
+          Try for free
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#fafafa"></mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#000000">
+      <mj-column>
+        <mj-text align="center" color="white" line-height="1.5"> This message was sent to name@doamin.com. If you don't want to receive these emails from DEMOCO in the future, you can edit your profile or unsubscribe. </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
