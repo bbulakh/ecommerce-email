@@ -9,7 +9,6 @@
     <mj-section background-color="#4C1D95">
       <mj-column>
         <mj-image
-          padding-left="0px"
           align="center"
           width="100px"
           align="center"
@@ -19,7 +18,6 @@
       </mj-column>
       <mj-column>
         <mj-navbar
-          base-url="https://mjml.io"
           hamburger="hamburger"
           ico-color="#ffffff"
         >
@@ -134,7 +132,7 @@
     <mj-section background-color="#ffffff">
       <mj-column>
         <mj-button href="#" background-color="#ffde34" color="black" width="250px">
-          Try for free
+          TRY FOR FREE
         </mj-button>
         <mj-button href="#" padding="0" background-color="white" color="blue" width="250px">
           See more
