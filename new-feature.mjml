@@ -161,17 +161,15 @@
 
     <!-- Footer -->
     <mj-section background-color="#4C1D95">
-      <mj-column> 
-      <mj-image
+      <mj-column>
+        <mj-image
           align="center"
           width="100px"
           align="center"
           src="https://i.postimg.cc/7L7srPGW/logo.png"
           alt=""
         />
-        <mj-text align="center" color="white">
-          Bogdan Bulakh, 2023
-        </mj-text>
+        <mj-text align="center" color="white"> Bogdan Bulakh, 2023 </mj-text>
       </mj-column>
     </mj-section>
 
