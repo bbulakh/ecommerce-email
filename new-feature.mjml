@@ -17,10 +17,7 @@
         />
       </mj-column>
       <mj-column>
-        <mj-navbar
-          hamburger="hamburger"
-          ico-color="#ffffff"
-        >
+        <mj-navbar hamburger="hamburger" ico-color="#ffffff">
           <mj-navbar-link>
             <mj-image src="https://postimg.cc/CRJKXTjL" alt="" />
           </mj-navbar-link>
@@ -47,7 +44,10 @@
     <!-- Company Header -->
     <mj-section background-color="#ffffff">
       <mj-column>
-        <mj-image src="https://ik.imagekit.io/zxaewhloxf/11.png?updatedAt=1689605323924" alt="" />
+        <mj-image
+          src="https://ik.imagekit.io/zxaewhloxf/11.png?updatedAt=1689605323924"
+          alt=""
+        />
         <mj-text
           padding="20px"
           font-size="50px"
@@ -68,7 +68,10 @@
     <mj-section background-color="#ffffff">
       <mj-group>
         <mj-column width="20%">
-          <mj-image src="https://ik.imagekit.io/zxaewhloxf/Filled_3_.svg?updatedAt=1689605022035"> </mj-image>
+          <mj-image
+            src="https://ik.imagekit.io/zxaewhloxf/Filled_3_.svg?updatedAt=1689605022035"
+          >
+          </mj-image>
         </mj-column>
         <mj-column width="80%">
           <mj-text font-size="16px" font-weight="600">
@@ -84,14 +87,16 @@
     <mj-section background-color="#ffffff">
       <mj-group>
         <mj-column width="20%">
-          <mj-image src="https://ik.imagekit.io/zxaewhloxf/Filled_1_.svg?updatedAt=1689605032492">  </mj-image>
+          <mj-image
+            src="https://ik.imagekit.io/zxaewhloxf/Filled_1_.svg?updatedAt=1689605032492"
+          >
+          </mj-image>
         </mj-column>
         <mj-column width="80%">
-          <mj-text font-size="16px" font-weight="600">
-            Add new shapes
-          </mj-text>
+          <mj-text font-size="16px" font-weight="600"> Add new shapes </mj-text>
           <mj-text font-size="14px" line-height="1.5">
-            We have more than 1000 presets for creating your furniture, but you can add new by yourself
+            We have more than 1000 presets for creating your furniture, but you
+            can add new by yourself
           </mj-text>
         </mj-column>
       </mj-group>
@@ -100,14 +105,17 @@
     <mj-section background-color="#ffffff">
       <mj-group>
         <mj-column width="20%">
-          <mj-image src="https://ik.imagekit.io/zxaewhloxf/Filled_2_.svg?updatedAt=1689605022015"></mj-image>
+          <mj-image
+            src="https://ik.imagekit.io/zxaewhloxf/Filled_2_.svg?updatedAt=1689605022015"
+          ></mj-image>
         </mj-column>
         <mj-column width="80%">
           <mj-text font-size="16px" font-weight="600">
             Create your own fabric design
           </mj-text>
           <mj-text font-size="14px" line-height="1.5">
-            Want some creative print? Just add your favourite image and we will print it on a fabric that we will use on your furniture
+            Want some creative print? Just add your favourite image and we will
+            print it on a fabric that we will use on your furniture
           </mj-text>
         </mj-column>
       </mj-group>
@@ -116,12 +124,12 @@
     <mj-section background-color="#ffffff">
       <mj-group>
         <mj-column width="20%">
-          <mj-image src="https://ik.imagekit.io/zxaewhloxf/Filled.svg?updatedAt=1689605052631"></mj-image>
+          <mj-image
+            src="https://ik.imagekit.io/zxaewhloxf/Filled.svg?updatedAt=1689605052631"
+          ></mj-image>
         </mj-column>
         <mj-column width="80%">
-          <mj-text font-size="16px" font-weight="600">
-            Fast Delivery
-          </mj-text>
+          <mj-text font-size="16px" font-weight="600"> Fast Delivery </mj-text>
           <mj-text font-size="14px" line-height="1.5">
             We will assemble and deliver your order within a two weeks
           </mj-text>
@@ -131,22 +139,56 @@
 
     <mj-section background-color="#ffffff">
       <mj-column>
-        <mj-button href="#" background-color="#ffde34" color="black" width="250px">
+        <mj-button
+          href="#"
+          background-color="#ffde34"
+          color="black"
+          width="250px"
+        >
           TRY FOR FREE
         </mj-button>
-        <mj-button href="#" padding="0" background-color="white" color="blue" width="250px">
+        <mj-button
+          href="#"
+          padding="0"
+          background-color="white"
+          color="blue"
+          width="250px"
+        >
           See more
         </mj-button>
       </mj-column>
     </mj-section>
 
     <!-- Footer -->
-    <mj-section background-color="#fafafa"></mj-section>
+    <mj-section background-color="#4C1D95">
+      <mj-column> 
+      <mj-image
+          align="center"
+          width="100px"
+          align="center"
+          src="https://i.postimg.cc/7L7srPGW/logo.png"
+          alt=""
+        />
+        <mj-text align="center" color="white">
+          Bogdan Bulakh, 2023
+        </mj-text>
+      </mj-column>
+    </mj-section>
 
-    <!-- Footer -->
+    <!-- Unsubscribe -->
     <mj-section background-color="#000000">
       <mj-column>
-        <mj-text align="center" color="white" line-height="1.5"> This message was sent to name@doamin.com. If you don't want to receive these emails from DEMOCO in the future, you can edit your profile or unsubscribe. </mj-text>
+        <mj-text
+          align="center"
+          font-size="10px"
+          color="white"
+          line-height="1.5"
+        >
+          This message was sent to name@doamin.com. If you don't want to receive
+          these emails from Maybell in the future, you can
+          <mj-link href="#" color="">edit your profile</mj-link> or
+          <mj-link href="#">unsubscribe. </mj-link>
+        </mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
