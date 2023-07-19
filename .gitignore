@@ -9,5 +9,4 @@ public
 build
 dist
 .parcel-cache
-.html
-images
+*.html
