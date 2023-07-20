@@ -1,0 +1,128 @@
+<mjml>
+  <mj-head>
+    <mj-font
+      name="Roboto"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+  </mj-head>
+  <mj-body>
+    <mj-section background-color="#4C1D95">
+      <mj-column>
+        <mj-image
+          align="center"
+          width="100px"
+          align="center"
+          src="https://i.postimg.cc/7L7srPGW/logo.png"
+          alt=""
+        />
+      </mj-column>
+      <mj-column>
+        <mj-navbar hamburger="hamburger" ico-color="#ffffff">
+          <mj-navbar-link>
+            <mj-image src="https://postimg.cc/CRJKXTjL" alt="" />
+          </mj-navbar-link>
+
+          <mj-navbar-link
+            href="https://tailwind-ecommerce-demo.vercel.app/index.html"
+            color="#ffffff"
+            >Home</mj-navbar-link
+          >
+          <mj-navbar-link
+            href="https://tailwind-ecommerce-demo.vercel.app/catalog.html"
+            color="#ffffff"
+            >Catalog</mj-navbar-link
+          >
+          <mj-navbar-link
+            href="https://tailwind-ecommerce-demo.vercel.app/cart.html"
+            color="#ffffff"
+            >Cart</mj-navbar-link
+          >
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white">
+      <mj-column>
+        <mj-text
+          padding="20px"
+          font-size="50px"
+          font-family="Roboto"
+          font-weight="700"
+        >
+          How did we do?
+        </mj-text>
+        <mj-text font-size="16px" line-height="1.5">Hi, {username}!</mj-text>
+        <mj-text font-size="16px"
+          >Thank you for ordering at Maybell! We'd love to hear your
+          opinion!</mj-text
+        >
+        <mj-text font-size="20px" font-weight="500" padding-top="40px">
+          How was your experience&quest;
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="white">
+
+    <mj-column>
+    <mj-image width="" src="https://ik.imagekit.io/zxaewhloxf/Emoji.svg?updatedAt=1689861446099" alt="" />
+    </mj-column>
+
+    <mj-column>
+    <mj-image src="https://ik.imagekit.io/zxaewhloxf/Emoji-1.svg?updatedAt=1689861446097" alt="" />
+    </mj-column>
+
+    <mj-column>
+    <mj-image src="https://ik.imagekit.io/zxaewhloxf/Emoji-2.svg?updatedAt=1689861446053" alt="" />
+    </mj-column>
+
+    <mj-column>
+    <mj-image src="https://ik.imagekit.io/zxaewhloxf/Emoji-3.svg?updatedAt=1689861446160" alt="" />
+    </mj-column>
+
+      
+    </mj-section>
+
+    <mj-section background-color="white">
+      
+    <mj-column background-color="white">
+    <mj-button align="left">
+      Share your feedback
+    </mj-button>
+      
+    </mj-column>
+    </mj-section>
+
+
+    <!-- Footer -->
+    <mj-section background-color="#4C1D95">
+      <mj-column>
+        <mj-image
+          align="center"
+          width="100px"
+          align="center"
+          src="https://i.postimg.cc/7L7srPGW/logo.png"
+          alt=""
+        />
+        <mj-text align="center" color="white"> Bogdan Bulakh, 2023 </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Unsubscribe -->
+    <mj-section background-color="#000000">
+      <mj-column>
+        <mj-text
+          align="center"
+          font-size="10px"
+          color="white"
+          line-height="1.5"
+        >
+          This message was sent to name@doamin.com. If you don't want to receive
+          these emails from Maybell in the future, you can
+          <mj-link href="#" color="">edit your profile</mj-link> or
+          <mj-link href="#">unsubscribe. </mj-link>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
