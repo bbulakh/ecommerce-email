@@ -64,8 +64,12 @@
 
     <mj-section background-color="white">
 
+    <mj-group>
+      
+    
+
     <mj-column>
-    <mj-image width="" src="https://ik.imagekit.io/zxaewhloxf/Emoji.svg?updatedAt=1689861446099" alt="" />
+    <mj-image src="https://ik.imagekit.io/zxaewhloxf/Emoji.svg?updatedAt=1689861446099" alt="" />
     </mj-column>
 
     <mj-column>
@@ -79,6 +83,7 @@
     <mj-column>
     <mj-image src="https://ik.imagekit.io/zxaewhloxf/Emoji-3.svg?updatedAt=1689861446160" alt="" />
     </mj-column>
+    </mj-group>
 
       
     </mj-section>
@@ -86,7 +91,7 @@
     <mj-section background-color="white">
       
     <mj-column background-color="white">
-    <mj-button align="left">
+    <mj-button align="left" background-color="#ffde34" color="black" font-weight="bold">
       Share your feedback
     </mj-button>
       
