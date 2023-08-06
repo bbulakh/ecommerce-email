@@ -1,0 +1,116 @@
+<mjml>
+  <mj-head>
+    <mj-font
+      name="Roboto"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+  </mj-head>
+  <mj-body>
+    <mj-section background-color="#4C1D95">
+      <mj-column>
+        <mj-image
+          align="center"
+          width="100px"
+          align="center"
+          src="https://i.postimg.cc/7L7srPGW/logo.png"
+          alt=""
+        />
+      </mj-column>
+      <mj-column>
+        <mj-navbar hamburger="hamburger" ico-color="#ffffff">
+          <mj-navbar-link>
+            <mj-image src="https://postimg.cc/CRJKXTjL" alt="" />
+          </mj-navbar-link>
+
+          <mj-navbar-link
+            href="https://tailwind-ecommerce-demo.vercel.app/index.html"
+            color="#ffffff"
+            >Home</mj-navbar-link
+          >
+          <mj-navbar-link
+            href="https://tailwind-ecommerce-demo.vercel.app/catalog.html"
+            color="#ffffff"
+            >Catalog</mj-navbar-link
+          >
+          <mj-navbar-link
+            href="https://tailwind-ecommerce-demo.vercel.app/cart.html"
+            color="#ffffff"
+            >Cart</mj-navbar-link
+          >
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+
+    <!-- Company Header -->
+    <mj-section background-color="#ffffff">
+      <mj-column>
+        <mj-text
+          padding="20px"
+          font-size="50px"
+          font-family="Roboto"
+          font-weight="700"
+        >
+          Thanks For shopping at Mabell
+        </mj-text>
+        <mj-text font-size="20px" line-height="1.5"
+          >Free shipping on all orders</mj-text
+        >
+
+        <mj-text font-size="16px" line-height="1.5"
+          >Use code <span style="color: red;">MBL-20</span>  at checkout <a href="#">checkout</a> to get 20% off your next order</mj-text
+        >
+      </mj-column>
+
+      
+      
+
+      <mj-column>
+
+
+        <mj-image
+          align="left"
+          src="https://ik.imagekit.io/zxaewhloxf/product-chair.jpg?updatedAt=1690200832264"
+          alt="Chair Image"
+        />
+        <mj-text font-size="20px" font-weight="bold" line-height="1.5"
+          >Italian chair</mj-text
+        >
+        <mj-text> Soft fiber </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- badges -->
+    <mj-section background-color="#ffffff"> </mj-section>
+
+    <!-- Footer -->
+    <mj-section background-color="#4C1D95">
+      <mj-column>
+        <mj-image
+          align="center"
+          width="100px"
+          align="center"
+          src="https://i.postimg.cc/7L7srPGW/logo.png"
+          alt=""
+        />
+        <mj-text align="center" color="white"> Bogdan Bulakh, 2023 </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Unsubscribe -->
+    <mj-section background-color="#000000">
+      <mj-column>
+        <mj-text
+          align="center"
+          font-size="10px"
+          color="white"
+          line-height="1.5"
+        >
+          This message was sent to name@doamin.com. If you don't want to receive
+          these emails from Maybell in the future, you can
+          <mj-link href="#" color="">edit your profile</mj-link> or
+          <mj-link href="#">unsubscribe. </mj-link>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
