@@ -1,0 +1,349 @@
+<mjml>
+  <mj-head>
+    <mj-font />
+
+    <mj-breakpoint width="375px" />
+  </mj-head>
+  <mj-body>
+    <mj-section background-color="#4C1D95" padding-bottom="0">
+      <mj-column padding-bottom="0" width="100%">
+        <mj-image
+          width="100px"
+          src="https://ik.imagekit.io/zxaewhloxf/Vector.png?updatedAt=1691427017965"
+          alt="Maybell Logo"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#4C1D95">
+      <mj-column>
+        <mj-navbar hamburger="hamburger" ico-color="#ffffff">
+          <mj-navbar-link>
+            <mj-image src="https://postimg.cc/CRJKXTjL" alt="" />
+          </mj-navbar-link>
+
+          <mj-navbar-link
+            href="https://tailwind-ecommerce-demo.vercel.app/index.html"
+            color="#ffffff"
+            >Home</mj-navbar-link
+          >
+          <mj-navbar-link
+            href="https://tailwind-ecommerce-demo.vercel.app/catalog.html"
+            color="#ffffff"
+            >Catalog</mj-navbar-link
+          >
+          <mj-navbar-link
+            href="https://tailwind-ecommerce-demo.vercel.app/cart.html"
+            color="#ffffff"
+            >Cart</mj-navbar-link
+          >
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+
+    <!-- Card  -->
+
+    <mj-wrapper background-color="#4C1D95" padding="0px 20px">
+      <mj-section background-color="white" border-radius="10px 10px 0px 0px">
+        <mj-column>
+          <mj-text padding="20px" font-size="36px" font-weight="700">
+            Order confirmation
+          </mj-text>
+
+          <mj-text font-size="16px" line-height="1.5" padding-bottom="16px"
+            >Hey, {CUSTOMER_NAME}!</mj-text
+          >
+          <mj-text font-size="16px" line-height="1.5" padding-bottom="16px"
+            >Thank you for shopping with us! <br />
+            We've received your
+            <a
+              href="https://tailwind-ecommerce-demo.vercel.app/order-overview.html"
+              >order &num; 34341.</a
+            >
+            We will notify you when we send it.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper background-color="#F3F3F3" padding="0px 20px">
+      <mj-section background-color="white">
+        <mj-column>
+          <mj-text font-size="16px" font-weight="bold">
+            ORDERED ITEMS:
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper background-color="#F3F3F3" padding="0px 20px">
+      <mj-section background-color="white">
+        <mj-group width="100%">
+          <mj-column width="30%">
+            <mj-image
+              src="https://ik.imagekit.io/zxaewhloxf/italian-chair.jpg?updatedAt=1691409077099"
+              alt="Italian Chair"
+            />
+          </mj-column>
+
+          <mj-column width="40%">
+            <mj-text
+              font-weight="bold"
+              padding="20px 0"
+              vertical-align="middle"
+              font-weight="bold"
+              font-size="14px"
+            >
+              ITALIAN SOFT CHAIR
+            </mj-text>
+
+            <mj-text
+              padding="0 0"
+              vertical-align="middle"
+              font-size="12px"
+              line-height="1.5"
+            >
+              Quantity 1
+              <span style="color: gray; margin: 0 5px">&#9679;</span> Violet
+              <span style="color: gray; margin: 0 5px">&#9679;</span> Premium
+              fiber
+              <span style="color: green; margin: 0 5px">&#9679;</span>
+              Availiable
+            </mj-text>
+          </mj-column>
+
+          <mj-column width="30%">
+            <mj-text
+              font-weight="bold"
+              padding="30px 30px"
+              vertical-align="middle"
+              font-weight="bold"
+              font-size="14px"
+              align="right"
+            >
+              $980
+            </mj-text>
+          </mj-column>
+        </mj-group>
+
+        <mj-column width="100%">
+          <mj-divider border-width="1px" width="100%" border-color="#f3f3f3" />
+        </mj-column>
+
+        <mj-group width="100%">
+          <mj-column width="30%">
+            <mj-image
+              src="https://ik.imagekit.io/zxaewhloxf/sofa.jpg?updatedAt=1691409076984"
+              alt="L-shaped Fofa"
+            />
+          </mj-column>
+
+          <mj-column width="40%">
+            <mj-text
+              font-weight="bold"
+              padding="20px 0"
+              vertical-align="middle"
+              font-weight="bold"
+              font-size="15px"
+            >
+              L-SHAPED SOFA
+            </mj-text>
+
+            <mj-text
+              padding="0 0"
+              vertical-align="middle"
+              font-size="12px"
+              line-height="1.5"
+            >
+              Quantity 1
+              <span style="color: gray; margin: 0 5px">&#9679;</span> Blue
+              <span style="color: gray; margin: 0 5px">&#9679;</span> Premium
+              fiber
+              <span style="color: red; margin: 0 5px">&#9679;</span>
+              Not Availiable
+            </mj-text>
+          </mj-column>
+
+          <mj-column width="30%">
+            <mj-text
+              font-weight="bold"
+              padding="30px 30px"
+              vertical-align="middle"
+              font-weight="bold"
+              font-size="14px"
+              align="right"
+            >
+              $1500
+            </mj-text>
+          </mj-column>
+        </mj-group>
+
+        <mj-column width="100%">
+          <mj-divider border-width="1px" width="100%" border-color="#f3f3f3" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper background-color="#F3F3F3" padding="0px 20px">
+      <mj-section background-color="white" border-radius="0px 0px 10px 10px">
+        <mj-column width="20%"> </mj-column>
+
+        <mj-group width="80%">
+          <mj-column>
+            <mj-text align="right" font-size="14px"> Subtotal </mj-text>
+            <mj-text align="right" font-size="14px"> Shipping </mj-text>
+            <mj-text align="right" font-size="14px"> Total </mj-text>
+          </mj-column>
+
+          <mj-column>
+            <mj-text align="right" font-size="14px"> $1480,00 </mj-text>
+
+            <mj-text align="right" font-size="14px"> $0,00 </mj-text>
+
+            <mj-text align="right" font-size="14px" font-weight="bold">
+              $1480,00
+            </mj-text>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- /Card  -->
+
+    <!-- Customer info  -->
+
+    <mj-section background-color="#F3F3F3" padding="24px">
+      <mj-column width="100%">
+        <mj-text font-size="36px" font-weight="700">
+          Customer Information
+        </mj-text>
+      </mj-column>
+
+      <mj-column width="50%" padding-top="20px">
+        <mj-text font-size="16px" font-weight="bold">
+          Shipping Address
+        </mj-text>
+
+        <mj-text> {CUSTOMER_NAME} </mj-text>
+
+        <mj-text> 123 Courier Street </mj-text>
+
+        <mj-text> Courierland, Alabama 1E45L6 </mj-text>
+
+        <mj-text> USA </mj-text>
+      </mj-column>
+
+      <mj-column width="50%" padding-top="20px">
+        <mj-text font-size="16px" font-weight="bold"> Billing Address </mj-text>
+
+        <mj-text> Delight Banking </mj-text>
+
+        <mj-text> 123 Billing Street </mj-text>
+
+        <mj-text> Bulltown, Alabama K2PO22 </mj-text>
+
+        <mj-text> USA </mj-text>
+      </mj-column>
+
+      <mj-column width="50%" padding-top="20px">
+        <mj-text font-size="16px" font-weight="bold"> Shipping Method </mj-text>
+
+        <mj-text> DHL Express </mj-text>
+      </mj-column>
+
+      <mj-column width="50%" padding-top="20px">
+        <mj-text font-size="16px" font-weight="bold"> Payment Method </mj-text>
+
+        <mj-text> Mastercard **** 2204 </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- /Customer info  -->
+
+    <!-- Footer  -->
+
+    <mj-section padding="20px 50px" background-color="black">
+      <mj-column width="100%">
+        <mj-image
+          width="100px"
+          padding="0"
+          align="left"
+          src="https://ik.imagekit.io/zxaewhloxf/Vector.png?updatedAt=1691427017965"
+          alt="Maybell Logo"
+        />
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="black" padding="0px 0px">
+      <mj-column>
+        <mj-social
+          padding="10px 43px"
+          font-size="15px"
+          icon-size="30px"
+          mode="horizontal"
+          align="left"
+        >
+          <mj-social-element
+            padding-right="0px"
+            padding-left="0"
+            name="facebook"
+            href="https://mjml.io/"
+          ></mj-social-element>
+
+          <mj-social-element name="google" href="https://mjml.io/"></mj-social-element>
+
+          <mj-social-element padding-right="0px" name="twitter" href="https://mjml.io/"></mj-social-element>
+          
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="black" padding="0px 24px">
+
+    <mj-column width="100%">
+    <mj-text font-size="12px" color="white">
+    If you have questions or need help, don't hesitate to contact our support team!
+    </mj-text>
+
+    <mj-text font-size="12px" color="white" line-height="1.5">
+    MAYBELL USA Inc, 4 World Trade Center, 150 Greenwich Street, 62nd Floor, New York, NY 10007, USA	
+    </mj-text>
+        
+    </mj-column>
+        
+    </mj-section>
+
+
+
+    <!-- /Footer  -->
+
+    <!-- Unsubscribe -->
+    <mj-section background-color="#000000" padding="0px 24px">
+      <mj-column>
+        <mj-text
+          align="center"
+          font-size="10px"
+          color="white"
+          line-height="1.5"
+        >
+          This message was sent to name@doamin.com. If you don't want to receive
+          these emails from Maybell in the future, you can
+          <a href="#">edit your profile</a> or
+          <a href="#">unsubscribe. </a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Copyright  -->
+
+    <mj-section background-color="black" padding="5px">
+      <mj-column width="100%">
+        <mj-text color="white" align="center">
+          &copy; Bogdan Bulakh, 2023
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- /Copyright  -->
+  </mj-body>
+</mjml>
