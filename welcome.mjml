@@ -43,33 +43,29 @@
 
     <mj-section background-color="white">
       <mj-column>
-        <mj-text
-          padding="20px"
-          font-size="50px"
-          font-family="Roboto"
-          font-weight="900"
-        >
+        <mj-text padding="20px" font-size="50px" font-weight="900">
           Nice to meet you&#33;
         </mj-text>
         <mj-text font-size="16px" line-height="1.5">Hi, {username}!</mj-text>
         <mj-text font-size="16px"
-          >Thank you for believing in our dream! Our mission is to match our customers with the right products. Start exploring with us!</mj-text
+          >Thank you for believing in our dream! Our mission is to match our
+          customers with the right products. Start exploring with us!</mj-text
         >
       </mj-column>
     </mj-section>
 
-
-
     <mj-section background-color="white">
-      
-    <mj-column background-color="white">
-    <mj-button align="left" background-color="#ffde34" color="black" font-weight="bold">
-      Let's go
-    </mj-button>
-      
-    </mj-column>
+      <mj-column background-color="white">
+        <mj-button
+          align="left"
+          background-color="#ffde34"
+          color="black"
+          font-weight="bold"
+        >
+          Let's go
+        </mj-button>
+      </mj-column>
     </mj-section>
-
 
     <!-- Footer -->
     <mj-section background-color="#4C1D95">

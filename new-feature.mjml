@@ -48,12 +48,7 @@
           src="https://ik.imagekit.io/zxaewhloxf/11.png?updatedAt=1689605323924"
           alt=""
         />
-        <mj-text
-          padding="20px"
-          font-size="50px"
-          font-family="Roboto"
-          font-weight="700"
-        >
+        <mj-text padding="20px" font-size="50px" font-weight="700">
           Meet the online furniture constructor&#33;
         </mj-text>
         <mj-text font-size="16px" line-height="1.5"

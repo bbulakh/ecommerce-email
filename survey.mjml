@@ -43,12 +43,7 @@
 
     <mj-section background-color="white">
       <mj-column>
-        <mj-text
-          padding="20px"
-          font-size="50px"
-          font-family="Roboto"
-          font-weight="700"
-        >
+        <mj-text padding="20px" font-size="50px" font-weight="700">
           How did we do?
         </mj-text>
         <mj-text font-size="16px" line-height="1.5">Hi, {username}!</mj-text>
@@ -63,41 +58,49 @@
     </mj-section>
 
     <mj-section background-color="white">
+      <mj-group>
+        <mj-column>
+          <mj-image
+            src="https://ik.imagekit.io/zxaewhloxf/Emoji.svg?updatedAt=1689861446099"
+            alt=""
+          />
+        </mj-column>
 
-    <mj-group>
-      
-    
+        <mj-column>
+          <mj-image
+            src="https://ik.imagekit.io/zxaewhloxf/Emoji-1.svg?updatedAt=1689861446097"
+            alt=""
+          />
+        </mj-column>
 
-    <mj-column>
-    <mj-image src="https://ik.imagekit.io/zxaewhloxf/Emoji.svg?updatedAt=1689861446099" alt="" />
-    </mj-column>
+        <mj-column>
+          <mj-image
+            src="https://ik.imagekit.io/zxaewhloxf/Emoji-2.svg?updatedAt=1689861446053"
+            alt=""
+          />
+        </mj-column>
 
-    <mj-column>
-    <mj-image src="https://ik.imagekit.io/zxaewhloxf/Emoji-1.svg?updatedAt=1689861446097" alt="" />
-    </mj-column>
-
-    <mj-column>
-    <mj-image src="https://ik.imagekit.io/zxaewhloxf/Emoji-2.svg?updatedAt=1689861446053" alt="" />
-    </mj-column>
-
-    <mj-column>
-    <mj-image src="https://ik.imagekit.io/zxaewhloxf/Emoji-3.svg?updatedAt=1689861446160" alt="" />
-    </mj-column>
-    </mj-group>
-
-      
+        <mj-column>
+          <mj-image
+            src="https://ik.imagekit.io/zxaewhloxf/Emoji-3.svg?updatedAt=1689861446160"
+            alt=""
+          />
+        </mj-column>
+      </mj-group>
     </mj-section>
 
     <mj-section background-color="white">
-      
-    <mj-column background-color="white">
-    <mj-button align="left" background-color="#ffde34" color="black" font-weight="bold">
-      Share your feedback
-    </mj-button>
-      
-    </mj-column>
+      <mj-column background-color="white">
+        <mj-button
+          align="left"
+          background-color="#ffde34"
+          color="black"
+          font-weight="bold"
+        >
+          Share your feedback
+        </mj-button>
+      </mj-column>
     </mj-section>
-
 
     <!-- Footer -->
     <mj-section background-color="#4C1D95">

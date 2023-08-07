@@ -44,12 +44,7 @@
     <!-- Company Header -->
     <mj-section background-color="#ffffff">
       <mj-column>
-        <mj-text
-          padding="20px"
-          font-size="50px"
-          font-family="Roboto"
-          font-weight="700"
-        >
+        <mj-text padding="20px" font-size="50px" font-weight="700">
           Thanks For shopping at Mabell
         </mj-text>
         <mj-text font-size="20px" line-height="1.5"
@@ -57,16 +52,12 @@
         >
 
         <mj-text font-size="16px" line-height="1.5"
-          >Use code <span style="color: red;">MBL-20</span>  at checkout <a href="#">checkout</a> to get 20% off your next order</mj-text
+          >Use code <span style="color: red">MBL-20</span> at checkout
+          <a href="#">checkout</a> to get 20% off your next order</mj-text
         >
       </mj-column>
 
-      
-      
-
       <mj-column>
-
-
         <mj-image
           align="left"
           src="https://ik.imagekit.io/zxaewhloxf/product-chair.jpg?updatedAt=1690200832264"
