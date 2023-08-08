@@ -44,7 +44,7 @@
     <!-- Company Header -->
     <mj-section background-color="#ffffff">
       <mj-column>
-        <mj-text padding="20px" font-size="50px" font-weight="700">
+        <mj-text padding="20px" font-size="36px" font-weight="700">
           Thanks For shopping at Mabell
         </mj-text>
         <mj-text font-size="20px" line-height="1.5"
@@ -73,7 +73,7 @@
     <!-- badges -->
     <mj-section background-color="#ffffff"> </mj-section>
 
-     <!-- Footer  -->
+    <!-- Footer  -->
 
     <mj-section padding="20px 50px" background-color="black">
       <mj-column width="100%">
@@ -103,30 +103,33 @@
             href="https://mjml.io/"
           ></mj-social-element>
 
-          <mj-social-element name="google" href="https://mjml.io/"></mj-social-element>
+          <mj-social-element
+            name="google"
+            href="https://mjml.io/"
+          ></mj-social-element>
 
-          <mj-social-element padding-right="0px" name="twitter" href="https://mjml.io/"></mj-social-element>
-          
+          <mj-social-element
+            padding-right="0px"
+            name="twitter"
+            href="https://mjml.io/"
+          ></mj-social-element>
         </mj-social>
       </mj-column>
     </mj-section>
 
     <mj-section background-color="black" padding="0px 24px">
+      <mj-column width="100%">
+        <mj-text font-size="12px" color="white">
+          If you have questions or need help, don't hesitate to contact our
+          support team!
+        </mj-text>
 
-    <mj-column width="100%">
-    <mj-text font-size="12px" color="white">
-    If you have questions or need help, don't hesitate to contact our support team!
-    </mj-text>
-
-    <mj-text font-size="12px" color="white" line-height="1.5">
-    MAYBELL USA Inc, 4 World Trade Center, 150 Greenwich Street, 62nd Floor, New York, NY 10007, USA	
-    </mj-text>
-        
-    </mj-column>
-        
+        <mj-text font-size="12px" color="white" line-height="1.5">
+          MAYBELL USA Inc, 4 World Trade Center, 150 Greenwich Street, 62nd
+          Floor, New York, NY 10007, USA
+        </mj-text>
+      </mj-column>
     </mj-section>
-
-
 
     <!-- /Footer  -->
 
