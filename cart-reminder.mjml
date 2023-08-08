@@ -6,16 +6,17 @@
     />
   </mj-head>
   <mj-body>
-    <mj-section background-color="#4C1D95">
-      <mj-column>
+   <mj-section background-color="#4C1D95" padding-bottom="0">
+      <mj-column padding-bottom="0" width="100%">
         <mj-image
-          align="center"
           width="100px"
-          align="center"
-          src="https://i.postimg.cc/7L7srPGW/logo.png"
-          alt=""
+          src="https://ik.imagekit.io/zxaewhloxf/Vector.png?updatedAt=1691427017965"
+          alt="Maybell Logo"
         />
       </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#4C1D95">
       <mj-column>
         <mj-navbar hamburger="hamburger" ico-color="#ffffff">
           <mj-navbar-link>
