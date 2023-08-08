@@ -73,22 +73,65 @@
     <!-- badges -->
     <mj-section background-color="#ffffff"> </mj-section>
 
-    <!-- Footer -->
-    <mj-section background-color="#4C1D95">
-      <mj-column>
+     <!-- Footer  -->
+
+    <mj-section padding="20px 50px" background-color="black">
+      <mj-column width="100%">
         <mj-image
-          align="center"
           width="100px"
-          align="center"
-          src="https://i.postimg.cc/7L7srPGW/logo.png"
-          alt=""
+          padding="0"
+          align="left"
+          src="https://ik.imagekit.io/zxaewhloxf/Vector.png?updatedAt=1691427017965"
+          alt="Maybell Logo"
         />
-        <mj-text align="center" color="white"> Bogdan Bulakh, 2023 </mj-text>
       </mj-column>
     </mj-section>
 
+    <mj-section background-color="black" padding="0px 0px">
+      <mj-column>
+        <mj-social
+          padding="10px 43px"
+          font-size="15px"
+          icon-size="30px"
+          mode="horizontal"
+          align="left"
+        >
+          <mj-social-element
+            padding-right="0px"
+            padding-left="0"
+            name="facebook"
+            href="https://mjml.io/"
+          ></mj-social-element>
+
+          <mj-social-element name="google" href="https://mjml.io/"></mj-social-element>
+
+          <mj-social-element padding-right="0px" name="twitter" href="https://mjml.io/"></mj-social-element>
+          
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="black" padding="0px 24px">
+
+    <mj-column width="100%">
+    <mj-text font-size="12px" color="white">
+    If you have questions or need help, don't hesitate to contact our support team!
+    </mj-text>
+
+    <mj-text font-size="12px" color="white" line-height="1.5">
+    MAYBELL USA Inc, 4 World Trade Center, 150 Greenwich Street, 62nd Floor, New York, NY 10007, USA	
+    </mj-text>
+        
+    </mj-column>
+        
+    </mj-section>
+
+
+
+    <!-- /Footer  -->
+
     <!-- Unsubscribe -->
-    <mj-section background-color="#000000">
+    <mj-section background-color="#000000" padding="0px 24px">
       <mj-column>
         <mj-text
           align="center"
@@ -98,10 +141,22 @@
         >
           This message was sent to name@doamin.com. If you don't want to receive
           these emails from Maybell in the future, you can
-          <mj-link href="#" color="">edit your profile</mj-link> or
-          <mj-link href="#">unsubscribe. </mj-link>
+          <a href="#">edit your profile</a> or
+          <a href="#">unsubscribe. </a>
         </mj-text>
       </mj-column>
     </mj-section>
+
+    <!-- Copyright  -->
+
+    <mj-section background-color="black" padding="5px">
+      <mj-column width="100%">
+        <mj-text color="white" align="center">
+          &copy; Bogdan Bulakh, 2023
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- /Copyright  -->
   </mj-body>
 </mjml>
