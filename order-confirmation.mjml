@@ -86,7 +86,7 @@
             />
           </mj-column>
 
-          <mj-column width="40%">
+          <mj-column width="70%">
             <mj-text
               font-weight="bold"
               padding="20px 0"
@@ -110,20 +110,13 @@
               <span style="color: green; margin: 0 5px">&#9679;</span>
               Availiable
             </mj-text>
-          </mj-column>
 
-          <mj-column width="30%">
-            <mj-text
-              font-weight="bold"
-              padding="30px 30px"
-              vertical-align="middle"
-              font-weight="bold"
-              font-size="14px"
-              align="right"
-            >
-              $980
+            <mj-text font-size="20px" font-weight="bold" padding="10px 0">
+              $950
             </mj-text>
           </mj-column>
+
+          
         </mj-group>
 
         <mj-column width="100%">
@@ -138,7 +131,7 @@
             />
           </mj-column>
 
-          <mj-column width="40%">
+          <mj-column width="70%">
             <mj-text
               font-weight="bold"
               padding="20px 0"
@@ -162,20 +155,15 @@
               <span style="color: red; margin: 0 5px">&#9679;</span>
               Not Availiable
             </mj-text>
-          </mj-column>
 
-          <mj-column width="30%">
-            <mj-text
-              font-weight="bold"
-              padding="30px 30px"
-              vertical-align="middle"
-              font-weight="bold"
-              font-size="14px"
-              align="right"
-            >
+            <mj-text font-size="20px" font-weight="bold" padding="10px 0">
               $1500
             </mj-text>
+
+
           </mj-column>
+
+          
         </mj-group>
 
         <mj-column width="100%">
