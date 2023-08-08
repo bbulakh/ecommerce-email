@@ -62,14 +62,14 @@
 
     <!-- badges -->
     <mj-section background-color="#ffffff">
-      <mj-group>
-        <mj-column width="20%">
-          <mj-image
-            src="https://ik.imagekit.io/zxaewhloxf/Filled_3_.svg?updatedAt=1689605022035"
+      <mj-group width="100%">
+        <mj-column width="30%">
+          <mj-image width="50px"
+            src="https://ik.imagekit.io/zxaewhloxf/Filled(1).png?updatedAt=1691499951512"
           >
           </mj-image>
         </mj-column>
-        <mj-column width="80%">
+        <mj-column width="70%">
           <mj-text font-size="16px" font-weight="600">
             Customize your furniture
           </mj-text>
@@ -81,14 +81,14 @@
     </mj-section>
 
     <mj-section background-color="#ffffff">
-      <mj-group>
-        <mj-column width="20%">
-          <mj-image
-            src="https://ik.imagekit.io/zxaewhloxf/Filled_1_.svg?updatedAt=1689605032492"
+      <mj-group width="100%">
+        <mj-column width="30%">
+          <mj-image width="50px"
+            src="https://ik.imagekit.io/zxaewhloxf/Filled%20copy%202.png?updatedAt=1691499951520"
           >
           </mj-image>
         </mj-column>
-        <mj-column width="80%">
+        <mj-column width="70%">
           <mj-text font-size="16px" font-weight="600"> Add new shapes </mj-text>
           <mj-text font-size="14px" line-height="1.5">
             We have more than 1000 presets for creating your furniture, but you
@@ -99,13 +99,13 @@
     </mj-section>
 
     <mj-section background-color="#ffffff">
-      <mj-group>
-        <mj-column width="20%">
-          <mj-image
-            src="https://ik.imagekit.io/zxaewhloxf/Filled_2_.svg?updatedAt=1689605022015"
+      <mj-group width="100%">
+        <mj-column width="30%">
+          <mj-image width="50px"
+            src="https://ik.imagekit.io/zxaewhloxf/Filled%20copy.png?updatedAt=1691499951513"
           ></mj-image>
         </mj-column>
-        <mj-column width="80%">
+        <mj-column width="70%">
           <mj-text font-size="16px" font-weight="600">
             Create your own fabric design
           </mj-text>
@@ -118,13 +118,13 @@
     </mj-section>
 
     <mj-section background-color="#ffffff">
-      <mj-group>
-        <mj-column width="20%">
-          <mj-image
-            src="https://ik.imagekit.io/zxaewhloxf/Filled.svg?updatedAt=1689605052631"
+      <mj-group width="100%">
+        <mj-column width="30%">
+          <mj-image width="50px"
+            src="https://ik.imagekit.io/zxaewhloxf/Filled.png?updatedAt=1691499890913"
           ></mj-image>
         </mj-column>
-        <mj-column width="80%">
+        <mj-column width="70%">
           <mj-text font-size="16px" font-weight="600"> Fast Delivery </mj-text>
           <mj-text font-size="14px" line-height="1.5">
             We will assemble and deliver your order within a two weeks
