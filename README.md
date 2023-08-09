@@ -9,7 +9,7 @@ MIT licensed - free for personal and commercial use.
 <img width="350px" src="https://ik.imagekit.io/zxaewhloxf/screencapture-127-0-0-1-5500-order-confirmation-html-2023-08-08-15_17_00.png?updatedAt=1691497050520" alt="Order confirmation">
 </details>
 
-<details><summary><strong>Order confirmation</strong></summary><br>
+<details><summary><strong>Welcome message</strong></summary><br>
 <img width="350px" src="https://ik.imagekit.io/zxaewhloxf/screencapture-127-0-0-1-5500-welcome-html-2023-08-09-15_58_43.png?updatedAt=1691585986065" alt="Welcome email">
 </details>
 
