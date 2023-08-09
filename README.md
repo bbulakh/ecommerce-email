@@ -13,6 +13,10 @@ MIT licensed - free for personal and commercial use.
 <img width="350px" src="https://ik.imagekit.io/zxaewhloxf/screencapture-127-0-0-1-5500-welcome-html-2023-08-09-15_58_43.png?updatedAt=1691585986065" alt="Welcome email">
 </details>
 
+<details><summary><strong>Survey</strong></summary><br>
+<img width="350px" src="https://ik.imagekit.io/zxaewhloxf/screencapture-127-0-0-1-5500-survey-html-2023-08-09-16_04_36.png?updatedAt=1691586288450" alt="Survey email">
+</details>
+
 
 
 ## Getting started
