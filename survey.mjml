@@ -44,7 +44,9 @@
         <mj-text padding="20px" font-size="36px" font-weight="700">
           How did we do?
         </mj-text>
-        <mj-text font-size="16px" line-height="1.5">Hi, {username}!</mj-text>
+        <mj-text font-size="16px" line-height="1.5"
+          >Hi, {CUSTOMER_NAME}!</mj-text
+        >
         <mj-text font-size="16px"
           >Thank you for ordering at Maybell! We'd love to hear your
           opinion!</mj-text

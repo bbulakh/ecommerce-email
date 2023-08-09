@@ -39,21 +39,31 @@
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="white">
-      <mj-column>
-        <mj-text padding="20px" font-size="36px" font-weight="900">
-          Nice to meet you&#33;
-        </mj-text>
-        <mj-text font-size="16px" line-height="1.5">Hi, {username}!</mj-text>
-        <mj-text font-size="16px"
-          >Thank you for believing in our dream! Our mission is to match our
-          customers with the right products. Start exploring with us!</mj-text
-        >
-      </mj-column>
-    </mj-section>
 
-    <mj-section background-color="white">
-      <mj-column background-color="white">
+    <!-- Card  -->
+
+    <mj-wrapper background-color="#4C1D95" padding="0px 20px">
+      <mj-section background-color="white" border-radius="10px 10px 0px 0px">
+        <mj-column>
+          <mj-text padding="20px" font-size="36px" font-weight="700">
+            Nice to meet you&#33;
+          </mj-text>
+
+          <mj-image src="https://ik.imagekit.io/zxaewhloxf/15.png?updatedAt=1691584352527" alt="" />
+
+          <mj-text font-size="16px" line-height="1.5" padding-bottom="16px"
+            >Hey, {CUSTOMER_NAME}!</mj-text
+          >
+          <mj-text font-size="16px" line-height="1.5" padding-bottom="16px"
+            >Thank you for believing in our dream! Our mission is to match our customers with the right products. Start exploring with us!
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper background-color="#f3f3f3" padding="0px 20px 40px">
+      <mj-section background-color="white" border-radius="0px 0px 10px 10px">
+        <mj-column>
         <mj-button
           align="left"
           background-color="#ffde34"
@@ -62,8 +72,24 @@
         >
           Let's go
         </mj-button>
-      </mj-column>
-    </mj-section>
+
+        <mj-text color="gray" line-height="1.5" font-size="12px">
+          If you did not sign up for this account, you can ignore this email and
+          the account will be deleted automatically after 5 days.
+        </mj-text>
+          
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+
+  
+
+    <!-- /Card  -->
+
+    
+
+    
 
     <!-- Footer  -->
 
