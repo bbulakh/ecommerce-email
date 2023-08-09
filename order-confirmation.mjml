@@ -1,6 +1,5 @@
 <mjml>
   <mj-head>
-    <mj-font />
 
     <mj-breakpoint width="375px" />
   </mj-head>

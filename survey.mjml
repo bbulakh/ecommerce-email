@@ -1,9 +1,6 @@
 <mjml>
   <mj-head>
-    <mj-font
-      name="Roboto"
-      href="https://fonts.googleapis.com/css?family=Roboto"
-    />
+    < name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
   </mj-head>
   <mj-body>
     <mj-section background-color="#4C1D95" padding-bottom="0">
@@ -58,32 +55,32 @@
       </mj-column>
     </mj-section>
 
-    <mj-section background-color="white">
+    <mj-section background-color="white" padding="0px 10% 0px 0px">
       <mj-group>
         <mj-column>
           <mj-image
-            src="https://ik.imagekit.io/zxaewhloxf/Emoji.svg?updatedAt=1689861446099"
+            src="https://ik.imagekit.io/zxaewhloxf/Emoji.png?updatedAt=1691583269916"
             alt=""
           />
         </mj-column>
 
         <mj-column>
           <mj-image
-            src="https://ik.imagekit.io/zxaewhloxf/Emoji-1.svg?updatedAt=1689861446097"
+            src="https://ik.imagekit.io/zxaewhloxf/Emoji-1.png?updatedAt=1691583269974"
             alt=""
           />
         </mj-column>
 
         <mj-column>
           <mj-image
-            src="https://ik.imagekit.io/zxaewhloxf/Emoji-2.svg?updatedAt=1689861446053"
+            src="https://ik.imagekit.io/zxaewhloxf/Emoji-2.png?updatedAt=1691583269894"
             alt=""
           />
         </mj-column>
 
         <mj-column>
           <mj-image
-            src="https://ik.imagekit.io/zxaewhloxf/Emoji-3.svg?updatedAt=1689861446160"
+            src="https://ik.imagekit.io/zxaewhloxf/Emoji-3.png?updatedAt=1691583270092"
             alt=""
           />
         </mj-column>
@@ -133,30 +130,33 @@
             href="https://mjml.io/"
           ></mj-social-element>
 
-          <mj-social-element name="google" href="https://mjml.io/"></mj-social-element>
+          <mj-social-element
+            name="google"
+            href="https://mjml.io/"
+          ></mj-social-element>
 
-          <mj-social-element padding-right="0px" name="twitter" href="https://mjml.io/"></mj-social-element>
-          
+          <mj-social-element
+            padding-right="0px"
+            name="twitter"
+            href="https://mjml.io/"
+          ></mj-social-element>
         </mj-social>
       </mj-column>
     </mj-section>
 
     <mj-section background-color="black" padding="0px 24px">
+      <mj-column width="100%">
+        <mj-text font-size="12px" color="white">
+          If you have questions or need help, don't hesitate to contact our
+          support team!
+        </mj-text>
 
-    <mj-column width="100%">
-    <mj-text font-size="12px" color="white">
-    If you have questions or need help, don't hesitate to contact our support team!
-    </mj-text>
-
-    <mj-text font-size="12px" color="white" line-height="1.5">
-    MAYBELL USA Inc, 4 World Trade Center, 150 Greenwich Street, 62nd Floor, New York, NY 10007, USA	
-    </mj-text>
-        
-    </mj-column>
-        
+        <mj-text font-size="12px" color="white" line-height="1.5">
+          MAYBELL USA Inc, 4 World Trade Center, 150 Greenwich Street, 62nd
+          Floor, New York, NY 10007, USA
+        </mj-text>
+      </mj-column>
     </mj-section>
-
-
 
     <!-- /Footer  -->
 
