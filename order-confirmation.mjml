@@ -1,7 +1,27 @@
 <mjml>
   <mj-head>
 
-    <mj-breakpoint width="375px" />
+  <mj-attributes>
+    <mj-class name="tags" />
+  </mj-attributes>
+
+
+    <mj-style>
+      @media (min-width:320px) {
+        #hidden-ul {
+          display: none;
+        }
+      }
+      @media (max-width:320px) {
+        #hidden-p {
+          display: none;
+        }
+      }
+      
+      
+    </mj-style>
+
+    <mj-breakpoint width="480px" />
   </mj-head>
   <mj-body>
     <mj-section background-color="#4C1D95" padding-bottom="0">
@@ -18,7 +38,7 @@
       <mj-column>
         <mj-navbar hamburger="hamburger" ico-color="#ffffff">
           <mj-navbar-link>
-            <mj-image src="https://postimg.cc/CRJKXTjL" alt="" />
+            <mj-image src="https://postimg.cc/CRJKXTjL" alt="Maybell logo" />
           </mj-navbar-link>
 
           <mj-navbar-link
@@ -96,26 +116,39 @@
               ITALIAN SOFT CHAIR
             </mj-text>
 
+            <mj-text padding="0" line-height="1.5">
+              <ul id="hidden-ul" style="list-style-type: none; width: 100%; padding: 0">
+                <li>Quantity - 1</li>
+                <li>Premium fiber</li>
+                <li>Violet</li>
+                <li>
+                  <span style="color: green; margin: 0 5px">&#9679;</span>
+                  Availiable
+                </li>
+              </ul>
+            </mj-text>
+
             <mj-text
+              mj-class="tags" 
               padding="0 0"
               vertical-align="middle"
               font-size="12px"
               line-height="1.5"
             >
-              Quantity 1
+
+            <p id="hidden-p">Quantity 1
               <span style="color: gray; margin: 0 5px">&#9679;</span> Violet
               <span style="color: gray; margin: 0 5px">&#9679;</span> Premium
               fiber
               <span style="color: green; margin: 0 5px">&#9679;</span>
-              Availiable
+              Availiable</p>
+              
             </mj-text>
 
             <mj-text font-size="20px" font-weight="bold" padding="10px 0">
               $950
             </mj-text>
           </mj-column>
-
-          
         </mj-group>
 
         <mj-column width="100%">
@@ -141,28 +174,38 @@
               L-SHAPED SOFA
             </mj-text>
 
+            <mj-text padding="0" line-height="1.5">
+              <ul id="hidden-ul" style="list-style-type: none; width: 100%; padding: 0">
+                <li>Quantity - 1</li>
+                <li>Premium fiber</li>
+                <li>Violet</li>
+                <li>
+                  <span style="color: green; margin: 0 5px">&#9679;</span>
+                  Availiable
+                </li>
+              </ul>
+            </mj-text>
+
             <mj-text
               padding="0 0"
               vertical-align="middle"
               font-size="12px"
               line-height="1.5"
             >
-              Quantity 1
+
+            <p id="hidden-p">Quantity 1
               <span style="color: gray; margin: 0 5px">&#9679;</span> Blue
               <span style="color: gray; margin: 0 5px">&#9679;</span> Premium
               fiber
               <span style="color: red; margin: 0 5px">&#9679;</span>
-              Not Availiable
+              Not Availiable</p>
+              
             </mj-text>
 
             <mj-text font-size="20px" font-weight="bold" padding="10px 0">
               $1500
             </mj-text>
-
-
           </mj-column>
-
-          
         </mj-group>
 
         <mj-column width="100%">
@@ -277,30 +320,33 @@
             href="https://mjml.io/"
           ></mj-social-element>
 
-          <mj-social-element name="google" href="https://mjml.io/"></mj-social-element>
+          <mj-social-element
+            name="google"
+            href="https://mjml.io/"
+          ></mj-social-element>
 
-          <mj-social-element padding-right="0px" name="twitter" href="https://mjml.io/"></mj-social-element>
-          
+          <mj-social-element
+            padding-right="0px"
+            name="twitter"
+            href="https://mjml.io/"
+          ></mj-social-element>
         </mj-social>
       </mj-column>
     </mj-section>
 
     <mj-section background-color="black" padding="0px 24px">
+      <mj-column width="100%">
+        <mj-text font-size="12px" color="white">
+          If you have questions or need help, don't hesitate to contact our
+          support team!
+        </mj-text>
 
-    <mj-column width="100%">
-    <mj-text font-size="12px" color="white">
-    If you have questions or need help, don't hesitate to contact our support team!
-    </mj-text>
-
-    <mj-text font-size="12px" color="white" line-height="1.5">
-    MAYBELL USA Inc, 4 World Trade Center, 150 Greenwich Street, 62nd Floor, New York, NY 10007, USA	
-    </mj-text>
-        
-    </mj-column>
-        
+        <mj-text font-size="12px" color="white" line-height="1.5">
+          MAYBELL USA Inc, 4 World Trade Center, 150 Greenwich Street, 62nd
+          Floor, New York, NY 10007, USA
+        </mj-text>
+      </mj-column>
     </mj-section>
-
-
 
     <!-- /Footer  -->
 
