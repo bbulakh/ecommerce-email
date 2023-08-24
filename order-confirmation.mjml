@@ -1,24 +1,12 @@
 <mjml>
   <mj-head>
-
-  <mj-attributes>
-    <mj-class name="tags" />
-  </mj-attributes>
-
+    <mj-attributes>
+      <mj-class name="tags" />
+    </mj-attributes>
 
     <mj-style>
-      @media (min-width:320px) {
-        #hidden-ul {
-          display: none;
-        }
-      }
-      @media (max-width:320px) {
-        #hidden-p {
-          display: none;
-        }
-      }
-      
-      
+      @media (min-width:320px) { #hidden-ul { display: none !important; } }
+      @media (max-width:320px) { #hidden-p { display: none !important; } }
     </mj-style>
 
     <mj-breakpoint width="480px" />
@@ -77,7 +65,7 @@
             We've received your
             <a
               href="https://tailwind-ecommerce-demo.vercel.app/order-overview.html"
-              >order &num; 34341.</a
+              >order # 34341.</a
             >
             We will notify you when we send it.
           </mj-text>
@@ -117,7 +105,10 @@
             </mj-text>
 
             <mj-text padding="0" line-height="1.5">
-              <ul id="hidden-ul" style="list-style-type: none; width: 100%; padding: 0">
+              <ul
+                id="hidden-ul"
+                style="list-style-type: none; width: 100%; padding: 0"
+              >
                 <li>Quantity - 1</li>
                 <li>Premium fiber</li>
                 <li>Violet</li>
@@ -129,20 +120,20 @@
             </mj-text>
 
             <mj-text
-              mj-class="tags" 
+              mj-class="tags"
               padding="0 0"
               vertical-align="middle"
               font-size="12px"
               line-height="1.5"
             >
-
-            <p id="hidden-p">Quantity 1
-              <span style="color: gray; margin: 0 5px">&#9679;</span> Violet
-              <span style="color: gray; margin: 0 5px">&#9679;</span> Premium
-              fiber
-              <span style="color: green; margin: 0 5px">&#9679;</span>
-              Availiable</p>
-              
+              <p id="hidden-p">
+                Quantity 1
+                <span style="color: gray; margin: 0 5px">&#9679;</span> Violet
+                <span style="color: gray; margin: 0 5px">&#9679;</span> Premium
+                fiber
+                <span style="color: green; margin: 0 5px">&#9679;</span>
+                Availiable
+              </p>
             </mj-text>
 
             <mj-text font-size="20px" font-weight="bold" padding="10px 0">
@@ -175,7 +166,10 @@
             </mj-text>
 
             <mj-text padding="0" line-height="1.5">
-              <ul id="hidden-ul" style="list-style-type: none; width: 100%; padding: 0">
+              <ul
+                id="hidden-ul"
+                style="list-style-type: none; width: 100%; padding: 0"
+              >
                 <li>Quantity - 1</li>
                 <li>Premium fiber</li>
                 <li>Violet</li>
@@ -192,14 +186,14 @@
               font-size="12px"
               line-height="1.5"
             >
-
-            <p id="hidden-p">Quantity 1
-              <span style="color: gray; margin: 0 5px">&#9679;</span> Blue
-              <span style="color: gray; margin: 0 5px">&#9679;</span> Premium
-              fiber
-              <span style="color: red; margin: 0 5px">&#9679;</span>
-              Not Availiable</p>
-              
+              <p id="hidden-p">
+                Quantity 1
+                <span style="color: gray; margin: 0 5px">&#9679;</span> Blue
+                <span style="color: gray; margin: 0 5px">&#9679;</span> Premium
+                fiber
+                <span style="color: red; margin: 0 5px">&#9679;</span>
+                Not Availiable
+              </p>
             </mj-text>
 
             <mj-text font-size="20px" font-weight="bold" padding="10px 0">
