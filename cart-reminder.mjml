@@ -1,6 +1,6 @@
 <mjml>
   <mj-head>
-    < name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <mj-style> #card_image{ width: 100%; object-fit: cover; } </mj-style>
   </mj-head>
   <mj-body>
     <mj-section background-color="#4C1D95" padding-bottom="0">
@@ -17,7 +17,7 @@
       <mj-column>
         <mj-navbar hamburger="hamburger" ico-color="#ffffff">
           <mj-navbar-link>
-            <mj-image src="https://postimg.cc/CRJKXTjL" alt="" />
+            <mj-image src="https://postimg.cc/CRJKXTjL" alt="Maybell logo" />
           </mj-navbar-link>
 
           <mj-navbar-link
@@ -39,37 +39,190 @@
       </mj-column>
     </mj-section>
 
-    <!-- Company Header -->
-    <mj-section background-color="#ffffff">
-      <mj-column>
-        <mj-text padding="20px" font-size="36px" font-weight="700">
-          Thanks For shopping at Mabell
-        </mj-text>
-        <mj-text font-size="20px" line-height="1.5"
-          >Free shipping on all orders</mj-text
-        >
+    <!-- Card  -->
 
-        <mj-text font-size="16px" line-height="1.5"
-          >Use code <span style="color: red">MBL-20</span> at checkout
-          <a href="#">checkout</a> to get 20% off your next order</mj-text
-        >
-      </mj-column>
+    <mj-wrapper background-color="#4C1D95" padding="0px 20px">
+      <mj-section background-color="white" border-radius="10px 10px 0px 0px">
+        <mj-column>
+          <mj-text padding="20px" font-size="36px" font-weight="700">
+            Thanks For shopping at Mabell
+          </mj-text>
+          <mj-text font-size="20px" line-height="1.5"
+            >Free shipping on all orders</mj-text
+          >
 
-      <mj-column>
-        <mj-image
-          align="left"
-          src="https://ik.imagekit.io/zxaewhloxf/product-chair.jpg?updatedAt=1690200832264"
-          alt="Chair Image"
-        />
-        <mj-text font-size="20px" font-weight="bold" line-height="1.5"
-          >Italian chair</mj-text
-        >
-        <mj-text> Soft fiber </mj-text>
-      </mj-column>
-    </mj-section>
+          <mj-text font-size="16px" line-height="1.5"
+            >Use code <span style="color: red">MBL-20</span> at checkout to get
+            20% off your next order</mj-text
+          >
+        </mj-column>
 
-    <!-- badges -->
-    <mj-section background-color="#ffffff"> </mj-section>
+        <mj-column width="50%">
+          <mj-image
+            align="left"
+            src="https://ik.imagekit.io/zxaewhloxf/product-chair.jpg?updatedAt=1690200832264"
+            alt="Chair Image"
+          />
+          <mj-text
+            font-size="20px"
+            font-weight="bold"
+            padding-bottom="0"
+            line-height="1.5"
+            ><p padding-bottom="0">Italian chair</p>
+          </mj-text>
+
+          <mj-text padding-top="0" padding-bottom="0">
+            <p>Quantity - 1</p>
+            <p>Violet</p>
+            <p>Soft fiber</p>
+          </mj-text>
+
+          <mj-button
+            href="https://tailwind-ecommerce-demo.vercel.app/checkout-address.html"
+            width="100%"
+            background-color="#ffde34"
+            padding-bottom="0"
+            color="black"
+            align="left"
+          >
+            Continue to checkout
+          </mj-button>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper background-color="#F3F3F3" padding="0px 20px">
+      <mj-section background-color="white" border-radius="0 0 10px 10px">
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- /Card  -->
+
+    <mj-wrapper background-color="#F3F3F3" padding="0px 20px">
+      <mj-section background-color="#F3F3F3" padding="24px">
+        <mj-column width="100%">
+          <mj-text font-weight="700">
+            <h2>You may also like</h2>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0">
+        <mj-group width="100%" background-color="white">
+          <mj-column width="30%" padding="10px" border-radius="10px 0 0 10px">
+            <mj-image
+              src="https://ik.imagekit.io/zxaewhloxf/sofa.jpg?updatedAt=1691409076984"
+              padding="0"
+              alt="l-shape sofa"
+          /></mj-column>
+  
+          <mj-column
+            width="70%"
+            padding-top="0px"
+            background-color="white"
+            border-radius="10px"
+          >
+            <mj-text font-size="16px" font-weight="bold"> L-shape Sofa </mj-text>
+  
+            <mj-text>
+              <span style="color: green; margin: 0 5px">&#9679;</span>
+              Availiable
+            </mj-text>
+  
+            <mj-text> <a href="#">View in catalog</a> </mj-text>
+  
+            <mj-button width="100%" href="#"> Add to whishlist </mj-button>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section>
+        <mj-group width="100%" background-color="white">
+          <mj-column width="30%" padding="10px" border-radius="10px 0 0 10px">
+            <mj-image
+              src="https://ik.imagekit.io/zxaewhloxf/bedroom.jpg?updatedAt=1692891389178"
+              padding="0"
+              alt="bedroom"
+          /></mj-column>
+  
+          <mj-column
+            width="70%"
+            padding-top="0px"
+            background-color="white"
+            border-radius="10px"
+          >
+            <mj-text font-size="16px" font-weight="bold"> Nice Bedroom </mj-text>
+  
+            <mj-text>
+              <span style="color: green; margin: 0 5px">&#9679;</span>
+              Availiable
+            </mj-text>
+  
+            <mj-text> <a href="#">View in catalog</a> </mj-text>
+  
+            <mj-button width="100%" href="#"> Add to whishlist </mj-button>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section>
+        <mj-group width="100%" background-color="white">
+          <mj-column width="30%" padding="10px" border-radius="10px 0 0 10px">
+            <mj-image
+              src="https://ik.imagekit.io/zxaewhloxf/kitchen.jpg?updatedAt=1692891389179"
+              padding="0"
+              alt="Italian Kitchen"
+          /></mj-column>
+  
+          <mj-column
+            width="70%"
+            padding-top="0px"
+            background-color="white"
+            border-radius="10px"
+          >
+            <mj-text font-size="16px" font-weight="bold"> Italian Kitchen </mj-text>
+  
+            <mj-text>
+              <span style="color: green; margin: 0 5px">&#9679;</span>
+              Availiable
+            </mj-text>
+  
+            <mj-text> <a href="#">View in catalog</a> </mj-text>
+  
+            <mj-button width="100%" href="#"> Add to whishlist </mj-button>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+
+      <mj-section>
+        <mj-group width="100%" background-color="white">
+          <mj-column width="30%" padding="10px" border-radius="10px 0 0 10px">
+            <mj-image
+              src="https://ik.imagekit.io/zxaewhloxf/matrass.jpg?updatedAt=1692891389067"
+              padding="0"
+              alt="Matrass"
+          /></mj-column>
+  
+          <mj-column
+            width="70%"
+            padding-top="0px"
+            background-color="white"
+            border-radius="10px"
+          >
+            <mj-text font-size="16px" font-weight="bold"> Matrass Comfort+ </mj-text>
+  
+            <mj-text>
+              <span style="color: green; margin: 0 5px">&#9679;</span>
+              Availiable
+            </mj-text>
+  
+            <mj-text> <a href="#">View in catalog</a> </mj-text>
+  
+            <mj-button width="100%" href="#"> Add to whishlist </mj-button>
+          </mj-column>
+        </mj-group>
+      </mj-section>
+    </mj-wrapper>
 
     <!-- Footer  -->
 
