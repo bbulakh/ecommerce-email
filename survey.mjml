@@ -52,7 +52,7 @@
           opinion!</mj-text
         >
         <mj-text font-size="20px" font-weight="500" padding-top="40px">
-          How was your experience&quest;
+          How was your experience?
         </mj-text>
       </mj-column>
     </mj-section>
